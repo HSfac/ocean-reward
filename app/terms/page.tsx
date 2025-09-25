@@ -24,7 +24,7 @@ export default function Terms() {
             <section>
               <h2 className="text-2xl font-bold mb-4 text-gray-800">제1조 (목적)</h2>
               <p className="text-gray-600 leading-relaxed">
-                본 약관은 블루체인 부산(이하 "서비스")이 제공하는 해양 환경 보호 플랫폼 및 블록체인 기반 리워드 시스템의 이용에 관한 조건 및 절차,
+                본 약관은 블루체인 부산(이하 &ldquo;서비스&rdquo;)이 제공하는 해양 환경 보호 플랫폼 및 블록체인 기반 리워드 시스템의 이용에 관한 조건 및 절차,
                 기타 필요한 사항을 규정함을 목적으로 합니다.
               </p>
             </section>
@@ -35,19 +35,19 @@ export default function Terms() {
                 <li className="flex items-start gap-2">
                   <span className="text-blue-600 mt-1">•</span>
                   <div>
-                    <strong>"서비스"</strong>란 블루체인 부산이 제공하는 해양쓰레기 수거 활동 기록 및 보상 시스템을 의미합니다.
+                    <strong>&ldquo;서비스&rdquo;</strong>란 블루체인 부산이 제공하는 해양쓰레기 수거 활동 기록 및 보상 시스템을 의미합니다.
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-blue-600 mt-1">•</span>
                   <div>
-                    <strong>"회원"</strong>이란 본 약관에 따라 서비스 이용 계약을 체결하고 서비스를 이용하는 자를 의미합니다.
+                    <strong>&ldquo;회원&rdquo;</strong>이란 본 약관에 따라 서비스 이용 계약을 체결하고 서비스를 이용하는 자를 의미합니다.
                   </div>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-blue-600 mt-1">•</span>
                   <div>
-                    <strong>"CLEAN 토큰"</strong>이란 해양쓰레기 수거 활동에 대한 보상으로 지급되는 블록체인 기반 디지털 자산을 의미합니다.
+                    <strong>&ldquo;CLEAN 토큰&rdquo;</strong>이란 해양쓰레기 수거 활동에 대한 보상으로 지급되는 블록체인 기반 디지털 자산을 의미합니다.
                   </div>
                 </li>
               </ul>

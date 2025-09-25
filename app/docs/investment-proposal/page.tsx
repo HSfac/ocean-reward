@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowLeft, Download, TrendingUp, Target, DollarSign, Award } from "lucide-react"
+import { ArrowLeft, Download, TrendingUp, DollarSign, Award } from "lucide-react"
 import Link from "next/link"
 import { generatePDF } from "@/utils/generatePDF"
 

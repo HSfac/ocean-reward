@@ -13,7 +13,7 @@ export default function CTA() {
     message: ""
   })
   const [showDocModal, setShowDocModal] = useState(false)
-  const [selectedDoc, setSelectedDoc] = useState<string | null>(null)
+  const [selectedDoc] = useState<string | null>(null)
   const [showWhitepaperModal, setShowWhitepaperModal] = useState(false)
 
   const handleMeetingSubmit = (e: React.FormEvent) => {

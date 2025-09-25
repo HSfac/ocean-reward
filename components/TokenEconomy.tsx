@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Coins, TrendingUp, Users, Lock } from "lucide-react"
+import { Coins, Lock } from "lucide-react"
 import { useState } from "react"
 
 export default function TokenEconomy() {
@@ -10,19 +10,19 @@ export default function TokenEconomy() {
   const [location, setLocation] = useState("beach")
 
   const calculateReward = () => {
-    const typeMultiplier = {
+    const typeMultiplier: Record<string, number> = {
       plastic: 1.0,
       net: 2.5,
       microplastic: 3.0
-    }[wasteType]
+    }
 
-    const locationMultiplier = {
+    const locationMultiplier: Record<string, number> = {
       beach: 1.0,
       remote: 1.5,
       protected: 2.0
-    }[location]
+    }
 
-    return Math.round(wasteAmount * typeMultiplier * locationMultiplier * 100)
+    return Math.round(wasteAmount * (typeMultiplier[wasteType] || 1) * (locationMultiplier[location] || 1) * 100)
   }
 
   return (
