@@ -18,7 +18,7 @@ export default function FAQ() {
         },
         {
           q: "앱은 어디에서 다운로드할 수 있나요?",
-          a: "현재 블루체인 부산 앱은 개발 진행 중이며, 2025년 상반기 출시 예정입니다. 출시되면 Google Play Store와 Apple App Store에서 무료로 다운로드할 수 있습니다."
+          a: "블루체인 부산 앱이 2025년 10월 정식 출시되었습니다. Google Play Store와 Apple App Store에서 무료로 다운로드할 수 있습니다."
         },
         {
           q: "회원가입에 제한이 있나요?",

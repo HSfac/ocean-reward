@@ -7,8 +7,8 @@ export default function Roadmap() {
   const phases = [
     {
       phase: "Phase 1",
-      title: "MVP 개발",
-      period: "4-6개월",
+      title: "MVP 개발 완료",
+      period: "2025년 1-6월",
       budget: "3-5억원",
       icon: Code,
       items: [
@@ -21,7 +21,7 @@ export default function Roadmap() {
     {
       phase: "Phase 2",
       title: "프로덕션 런칭",
-      period: "6-8개월",
+      period: "2025년 7-10월",
       budget: "4-7억원",
       icon: Rocket,
       items: [
@@ -34,7 +34,7 @@ export default function Roadmap() {
     {
       phase: "Phase 3",
       title: "확장 & 성장",
-      period: "6-12개월",
+      period: "2025년 11월-2026년 6월",
       budget: "5-8억원",
       icon: Globe,
       items: [
@@ -47,7 +47,7 @@ export default function Roadmap() {
     {
       phase: "Phase 4",
       title: "글로벌 진출",
-      period: "12개월+",
+      period: "2026년 7월+",
       budget: "10억원+",
       icon: Trophy,
       items: [

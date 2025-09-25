@@ -25,7 +25,7 @@ export default function BusinessPlan() {
           <div className="flex items-center justify-between mb-8">
             <div>
               <h1 className="text-4xl font-bold text-gray-900 mb-2">사업 계획서</h1>
-              <p className="text-gray-600">Ocean Reward 프로젝트 상세 사업 계획</p>
+              <p className="text-gray-600">블루체인 부산 프로젝트 상세 사업 계획</p>
             </div>
             <button
               onClick={handleDownloadPDF}
@@ -114,7 +114,7 @@ export default function BusinessPlan() {
 
               <h3 className="text-xl font-bold mb-4 text-gray-800">1.1 프로젝트명</h3>
               <p className="text-gray-600 mb-6">
-                <strong>Ocean Reward</strong> - 블루체인 부산 (BlueChain Busan)
+                <strong>블루체인 부산</strong> (BlueChain Busan)
               </p>
 
               <h3 className="text-xl font-bold mb-4 text-gray-800">1.2 비전</h3>

@@ -114,8 +114,8 @@ export default function Terms() {
 
             <div className="border-t pt-6 mt-8">
               <p className="text-sm text-gray-500">
-                <strong>시행일:</strong> 2025년 1월 1일<br />
-                <strong>최종 수정일:</strong> 2024년 12월 25일<br />
+                <strong>시행일:</strong> 2025년 10월 1일<br />
+                <strong>최종 수정일:</strong> 2025년 9월 25일<br />
                 본 약관은 부산광역시 블록체인 규제자유특구 관련 법령에 따라 작성되었습니다.
               </p>
             </div>

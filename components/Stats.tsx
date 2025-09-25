@@ -10,23 +10,23 @@ export default function Stats() {
   const statItems = [
     {
       icon: TrendingUp,
-      value: "50,000+",
-      unit: "kg",
+      value: "1,000",
+      unit: "톤",
       label: "예상 연간 수거량",
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: Users,
-      value: "10,000+",
+      value: "50,000",
       unit: "명",
       label: "예상 활성 사용자",
       color: "from-green-500 to-emerald-500"
     },
     {
       icon: Coins,
-      value: "25,000,000",
+      value: "100,000,000",
       unit: "CLEAN",
-      label: "예상 발행 토큰",
+      label: "예상 연간 발행 토큰",
       color: "from-purple-500 to-pink-500"
     },
     {
@@ -52,7 +52,7 @@ export default function Stats() {
             예상 <span className="text-gradient">성과 지표</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            블루체인 부산 서비스 출시 후 1년간 예상 성과
+            2025년 10월 출시 기준 1년간 예상 성과
           </p>
         </motion.div>
 
@@ -125,8 +125,8 @@ export default function Stats() {
           <div className="bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl p-6 text-white">
             <h4 className="text-lg font-semibold mb-2">예상 일일 평균</h4>
             <div className="flex items-baseline gap-2">
-              <span className="text-3xl font-bold">137</span>
-              <span className="text-white/80">kg 수거</span>
+              <span className="text-3xl font-bold">2.7</span>
+              <span className="text-white/80">톤 수거</span>
             </div>
             <div className="mt-3 bg-white/20 rounded-full h-2">
               <div className="bg-white rounded-full h-2 w-full"></div>
@@ -145,7 +145,7 @@ export default function Stats() {
           <div className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl p-6 text-white">
             <h4 className="text-lg font-semibold mb-2">예상 환경 영향</h4>
             <div className="flex items-baseline gap-2">
-              <span className="text-3xl font-bold">120</span>
+              <span className="text-3xl font-bold">300</span>
               <span className="text-white/80">톤 CO₂</span>
             </div>
             <p className="text-sm text-white/80 mt-2">연간 탄소 절감 예상</p>

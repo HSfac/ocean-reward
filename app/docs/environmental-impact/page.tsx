@@ -25,7 +25,7 @@ export default function EnvironmentalImpact() {
           <div className="flex items-center justify-between mb-8">
             <div>
               <h1 className="text-4xl font-bold text-gray-900 mb-2">환경 영향 분석 보고서</h1>
-              <p className="text-gray-600">Ocean Reward의 환경적 임팩트와 지속가능성</p>
+              <p className="text-gray-600">블루체인 부산의 환경적 임팩트와 지속가능성</p>
             </div>
             <button
               onClick={handleDownloadPDF}
@@ -110,7 +110,7 @@ export default function EnvironmentalImpact() {
                 </div>
 
                 <div className="bg-green-50 rounded-xl p-6">
-                  <h3 className="font-bold text-green-900 mb-3">Ocean Reward 솔루션</h3>
+                  <h3 className="font-bold text-green-900 mb-3">블루체인 부산 솔루션</h3>
                   <ul className="space-y-2 text-gray-700">
                     <li>• 시민 참여 인센티브 제공</li>
                     <li>• 실시간 수거 활동 추적</li>

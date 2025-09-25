@@ -116,7 +116,7 @@ export default function TokenEconomy() {
               <li className="flex items-start gap-2">
                 <span className="text-purple-500 mt-1">•</span>
                 <div>
-                  <span className="font-medium">스테이킹으로 추가 리워드 획듍</span>
+                  <span className="font-medium">스테이킹으로 추가 리워드 획득</span>
                   <p className="text-xs text-gray-500 mt-1">연 15-20% APY</p>
                 </div>
               </li>
